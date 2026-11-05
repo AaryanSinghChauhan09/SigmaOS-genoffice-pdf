@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-genoffice-pdf"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "GenOffice PDF component — viewing, annotation, form filling, digital signatures, and PDF/A export"
+upstream = []
+
+[contract]
+provides = ["pdf-viewing", "pdf-annotation"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"

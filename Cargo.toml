@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_genoffice_pdf"
+version = "0.1.0"
+edition = "2021"
+description = "GenOffice PDF component — viewing, annotation, form filling, digital signatures, and PDF/A export"
+
+[lib]
+name = "sigmaos_genoffice_pdf"
+path = "src/lib.rs"
