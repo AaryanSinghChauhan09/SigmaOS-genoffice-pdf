@@ -54,10 +54,17 @@ impl PdfDocument {
 #[cfg(test)]
 mod tests {
     use super::*;
+
     #[test]
-    fn pdf_annotation_tracking() {
+    fn test_pdf_annotation_tracking_aaa() {
+        // Arrange
         let mut doc = PdfDocument::new("report.pdf", 10);
-        doc.add_annotation(Annotation::new(1, "Review this", "alice"));
+        let note = Annotation::new(1, "Review this", "alice");
+
+        // Act
+        doc.add_annotation(note);
+
+        // Assert
         assert_eq!(doc.annotation_count(), 1);
     }
 }
