@@ -3,7 +3,7 @@ name = "SigmaOS-genoffice-pdf"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "GenOffice PDF component — viewing, annotation, form filling, digital signatures, and PDF/A export"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
