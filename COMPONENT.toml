@@ -1,9 +1,9 @@
 [component]
 name = "SigmaOS-genoffice-pdf"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+description = "Sovereign PDF processing engine with metadata, annotations, bookmarks, and PDF/A conformance"
 upstream = []
 
 [contract]
@@ -11,6 +11,6 @@ provides = ["pdf-viewing", "pdf-annotation"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles"
-next_milestone = "Verification test suite"
+status = "Implemented"
+test_evidence = "6 tests passing with cargo test --lib --offline"
+next_milestone = "Hardware and runtime integration"
